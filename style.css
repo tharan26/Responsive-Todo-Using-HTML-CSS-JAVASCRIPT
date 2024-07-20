@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-family: monospace;
+    background-color: lightcoral;
+}
+
+.todo {
+    border: 2px transparent;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 8px #808080;
+    background-color: indianred;
+    width: 100%;
+    max-width: 400px;
+}
+
+.todo h1 {
+    text-align: center;
+    color: white;
+}
+
+#newtask input {
+    margin: 20px;
+    padding: 10px;
+    width: 250px;
+    border: transparent;
+    border-radius: 5px;
+}
+
+#newtask button {
+    font-family: monospace;
+    padding: 5px;
+    width: 80px;
+    border-radius: 5px;
+    color: indianred;
+    background-color: white;
+    border: transparent;
+    cursor: pointer;
+}
+
+#newtask button:hover {
+    background-color: indianred;
+    color: white;
+    border: 2px solid white;
+}
+
+#list {
+    list-style: none;
+}
+
+#list li {
+    padding: 10px;
+    border-bottom: 1px solid indianred;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: x-large;
+}
+
+#list button {
+    font-family: monospace;
+    padding: 8px;
+    width: 80px;
+    background-color: lightcoral;
+    color: white;
+    border: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#list button:hover {
+    color: indianred;
+    background-color: white;
+    border: transparent;
+}
