@@ -17,5 +17,5 @@ function addTask() {
     };
     listItem.appendChild(deleteButton);
     tasklist.appendChild(listItem);
-    inputField.value = '';
+    val.value = '';
 }
